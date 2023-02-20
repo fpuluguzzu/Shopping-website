@@ -1,0 +1,88 @@
+*{  /* *selector refers to all HTML elements */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color: #edb897;*/
+    background-image: url('pic2.jpg');
+    
+}
+
+    
+
+.header{
+width: 100%;
+background-image:linear-gradient(to right, #ef5151, #e99d6e) ;
+}
+
+.navbar-brand{
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Gloock ;
+}
+
+.nav-link{
+    color: black;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #b852dd;
+
+}
+
+img{
+    margin: 10px;
+    width: 12%;
+}
+
+.container1{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 200px auto;
+}
+
+.text{
+    color: #ef5151;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    margin-left: 30px;
+    font-family: Gajraj One;
+}
+
+.card{
+    
+
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    padding: 5rem 2.5rem;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    backdrop-filter: blur (1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem #00000080 ;
+    
+    border-top-color: #e97676;
+    border-left-color: #e97676;
+    border-bottom-color:#e95555;
+    border-right-color:#e95555 ;
+}
+
+.card-text{
+    font-size: 15px;
+}
+
+.footer{
+    margin: 10px;
+}
+
+.h6{
+text-transform: uppercase;
+color: #ef5151;
+
+}
+
